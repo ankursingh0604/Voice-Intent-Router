@@ -128,4 +128,3 @@ voice-intent-router/
 
 **Ankur Singh** — CS undergrad building RAG systems and AI agents
 
-[GitHub](https://github.com/ankursingh0604) • [LinkedIn](your-linkedin-url) • [X](https://x.com/ankur_builds)
