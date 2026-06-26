@@ -1,0 +1,15 @@
+langchain
+langchain-groq
+langchain-community
+langchain-core
+langgraph
+groq
+python-dotenv
+fastapi
+uvicorn
+streamlit
+streamlit-mic-recorder
+pydantic
+langsmith
+python-multipart
+tavily-python
