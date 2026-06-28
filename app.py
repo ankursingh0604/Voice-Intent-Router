@@ -194,7 +194,7 @@ if "last_result" in st.session_state:
         for src in r["sources"]:
             st.markdown(f"- {src}")
 
-    # Optional TTS — only offered for text responses, never for code.
+    # Optional TTS — only offered for text responses, never for code
     if response_type == "text":
         col_tts, _ = st.columns([1, 3])
         with col_tts:
