@@ -303,7 +303,7 @@ def build_router_agent():
     # this mapping is the actual enforcement point. If classify_input ever
     # returned something not listed here, LangGraph would raise at runtime
     # rather than silently doing nothing — which is why classify_input's
-    # normalization/validation step exists, to make sure that never happens.
+    # normalization/validation step exists, to make sure that never happens
     graph.add_conditional_edges(
         "classify_input",
         route_by_category,
