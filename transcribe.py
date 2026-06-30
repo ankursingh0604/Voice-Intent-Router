@@ -133,7 +133,7 @@ def transcribe_audio(file_bytes: bytes, filename: str) -> TranscriptionResult:
             if getattr(s, "no_speech_prob", 0) > NO_SPEECH_PROB_THRESHOLD
         ]
         # If MOST segments are flagged as likely non-speech, treat the
-        # whole transcript as suspect rather than confidently wrong.
+        # whole transcript as suspect rather than confidently wrong
         if len(high_no_speech_segments) >= max(1, len(segments) * 0.7):
             return TranscriptionResult(
                 text=text, is_likely_valid=False,
